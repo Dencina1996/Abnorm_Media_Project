@@ -1,0 +1,16 @@
+¡IMPORTANTE!
+Pasos previos para visualizar el proyecto:
+	- Importar la base de datos (main_db.sql)
+	- Crear el usuario (admin) con la contraseña (P@ssw0rd) y añadirle todos los privilegios dentro de nuestra base de datos (main_db)
+	*EXTRA - SERVICIO PHP*
+	- A través de una terminal, dirigirnos a la carpeta donde se encuentran los ficheros y iniciar el servicio local de PHP tal que así:
+		php -S localhost:8000
+
+· Problemas experimentados:
+- Me ha resultado una tarea relativamente sencilla, ya que estoy familiarizado con el desarrollo de plataformas de comunicación y difusión entre usuarios (foros, rrss, ...). Quizá la parte del diseño se me ha dificultado un poco al trabajar sobre la integración del formulario en la web (The Gentleman Barbershop by Toni), aunque ojeando un poco el código he podido seguir más o menos las directrices de diseño y el resultado final está en consonancia con el resto de la web.
+
+· Incidencias no resueltas:
+- Ninguna. He intentado ceñirme lo más posible a las indicaciones dadas en la prueba y diría que no ha quedado nada por resolver.
+
+· Tiempo del desarrollo:
+- Aproximadamente calculo unas 6-8 horas de trabajo. Contando con: Puesta a punto de la base de datos, planificación del diseño, primeros ficheros de código (Html, Javascript, Css), refactorización del mismo para un óptimo rendimiento, e integración dentro de un proyecto activo.

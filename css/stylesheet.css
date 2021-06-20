@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+body {
+	background-image: url(https://www.abnorm.es/images/w_background.jpg); 
+	font-family: 'Open Sans', sans-serif;
+	margin: 0px;
+}
+
+#main-logo {
+	margin: 10px;
+	border: solid 1px ghostwhite;
+	position: absolute;
+	right: 0px;
+}
+
+#content-container {
+	background-color: #736049;
+	border: solid 1px black;
+	border-radius: 10px;
+	margin: 10px 6px 0px 6px;
+}
+
+	#content-container-title {
+		margin: 0px;
+		border-radius: 8px 8px 0px 0px;
+		border-bottom: solid 1px black;
+		padding: 10px;
+		background-color: #2e2a26;
+    	color: white;
+    	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	}
+
+	#comment-container {
+		width: 85%;
+		overflow-y: auto;
+		max-height: 500px;
+	}
+
+		#comment-container::-webkit-scrollbar {
+			width: 20px;
+		}
+
+		#comment-container::-webkit-scrollbar-track {
+			border: solid 1px black;
+			border-width: 0px 1px 0px 1px;
+			background-color: rgb(225 225 225);
+		}
+
+		#comment-container::-webkit-scrollbar-thumb {
+			background-color: #917758b0;
+			border: solid 1px black;
+		}
+
+		.comment {
+			border: solid 1px black;
+		    margin: 10px;
+		    border-radius: 10px;
+		}
+
+			.comment-author-data {
+				padding: 10px;
+			    border-bottom: solid 1px black;
+			    border-radius: 10px 10px 0px 0px;
+			    background-color: rgb(225 225 225);
+			}
+
+				.comment-author-name {
+					font-weight: bold;
+				}
+
+			.comment-body {
+				padding: 10px;
+    			background-color: rgb(255 255 255 / 30%);
+    			border-radius: 0px 0px 10px 10px;
+			}
+
+	#comment-form {
+		width: 100%;
+		position: absolute;
+		display: flex;
+		bottom: 0px;
+		border-top: solid 1px black;
+		background: ghostwhite;
+	}
+
+		#comment-form-data {
+			margin: 20px 0px 20px 20px;
+			width: 85%;
+			display: grid;
+		}
+
+			#comment-form-data > input, #comment-form-data > textarea {
+				padding: 10px;
+				outline: none;
+				border-radius: 8px;
+				border: solid 1px black;
+				font-size: 16px;
+			} 
+
+			#comment-form-data > input {
+				height: 20px;
+				margin-bottom: 10px;
+			}
+
+			#comment-form-data > textarea {
+				height: 140px;
+			   	font-family: 'Open Sans', sans-serif;
+			    resize: none;
+			}
+
+		#comment-form-submit {
+			width: 15%;
+			text-align: center;
+			margin: auto;
+		}
+
+			#comment-form-submit > button {
+				height: 120px;
+				width: 120px;
+				align-self: center;
+				font-weight: bold;
+				font-size: 18px;
+			}
